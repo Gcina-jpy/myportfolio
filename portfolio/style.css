@@ -1,3 +1,4 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     color: #333;
     background: #eef2f3; /* Light grayish blue for a clean look */
     line-height: 1.6;
+   padding-top: 130px;
 }
 
 /* Header */
@@ -427,3 +429,4 @@ button:hover {
         border-color: transparent;
     }
 }
+
