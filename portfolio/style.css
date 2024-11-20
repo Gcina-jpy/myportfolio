@@ -206,6 +206,15 @@ hr {
 }
 
 
+.project-video {
+    width: 100%; /* Ensures the video spans the full width of the card */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
 /* Contact Section */
 .contact-form {
     background: #0a192f; /* Dark navy for contrast */
