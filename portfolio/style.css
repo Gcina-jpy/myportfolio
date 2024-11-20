@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -319,6 +318,47 @@ button:hover {
     font-size: 16px;
     font-weight: bold;
     color: #3498db;
+}
+/* Footer Section */
+.footer {
+    background: #112240; 
+    color: #ccd6f6; 
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #3498db; 
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #3498db; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #3498db; 
+}
+
+.footer-links span {
+    color: #ccd6f6; 
 }
 
 
