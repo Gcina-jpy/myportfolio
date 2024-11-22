@@ -82,8 +82,8 @@ a {
 }
 
 .profile-image-container {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
@@ -220,9 +220,99 @@ hr {
 .card-content {
     padding: 20px;
 }
+
+/* Certifications Section */
+.certifications {
+    padding: 5rem 2rem;
+    background: #f4f8fb;
+    text-align: center;
+}
+
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certification-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.certification-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.certification-content {
+    padding: 20px;
+}
+
+.certification-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.certification-content p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.certification-content .btn {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.certification-content .btn:hover {
+    background: #2980b9;
+}
+
+/* My Journey Section */
+.my-journey {
+    padding: 5rem 2rem;
+    background: #f4f8fb;
+    text-align: center;
+}
+
+.journey-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.journey-item {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.journey-item h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.journey-item p {
+    color: #666;
+    font-size: 1rem;
+}
+
 /* Contact Section */
 .contact-form {
-    background: #0a192f; /* Dark navy for contrast */
+    background: #185a86; /* Dark navy for contrast */
     padding: 30px;
     border-radius: 5px;
     margin: 30px auto;
@@ -245,7 +335,7 @@ hr {
     padding: 15px;
     border: 1px solid #8892b0;
     border-radius: 5px;
-    background: #112240;
+    background: #185a86;
     color: #ccd6f6;
     font-size: 16px;
     outline: none;
@@ -255,11 +345,11 @@ hr {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border: 1px solid #3498db;
+    border: 1px solid #185a86;
 }
 
 .contact-form button {
-    background: #3498db;
+    background: #185a86;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -273,7 +363,7 @@ hr {
 }
 
 .contact-form button:hover {
-    background: #3498db;
+    background:#185a86;
 }
 
 .contact-form textarea {
@@ -282,7 +372,7 @@ hr {
 
 /* General Button Style */
 button {
-    background: #3498db;
+    background:#185a86;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -297,7 +387,7 @@ button:hover {
 }
 
 .tech-stack {
-    background: #112240;
+    background:#185a86;
     color: #ccd6f6;
     text-align: center;
     padding: 5rem 2rem;
@@ -337,7 +427,7 @@ button:hover {
 }
 /* Footer Section */
 .footer {
-    background: #112240; 
+    background: #185a86; 
     color: #ccd6f6; 
     padding: 20px 0;
     text-align: center;
