@@ -30,7 +30,12 @@ header {
     right: 0;
     z-index: 10;
 }
-
+.nav-links a img {
+    width: 20px; 
+    margin-right: 8px; 
+ 
+  background: none;
+}
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
